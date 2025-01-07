@@ -5,17 +5,17 @@
 - Add our tap:
 
 ```bash
-brew tap pot-app/homebrew-tap
+brew tap saladict-app/homebrew-tap
 ```
 
 - Install pot:
 
 ```bash
-brew install --cask pot
+brew install --cask saladict
 ```
 
 - Upgrade pot
 
 ```bash
-brew upgrade --cask pot
+brew upgrade --cask saladict
 ```

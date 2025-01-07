@@ -5,7 +5,7 @@
 - Add our tap:
 
 ```bash
-brew tap saladict-app/homebrew-tap
+brew tap allentown521/homebrew-saladict
 ```
 
 - Install pot:

@@ -6,12 +6,12 @@ cask "saladict" do
          intel: "6a76d135a03576e019470e02656f0f8fa3d6a13706cc1d733736b7e66aa5eafe"
 
   url "https://github.com/allentown521/saladict/releases/download/#{version}/saladict_#{version}_#{arch}.dmg"
-  name "Saladict"
+  name "saladict"
   desc "Cross-platform software for text translation and recognize"
   homepage "https://github.com/allentown521/saladict"
 
-  app "Saladict.app"
-  binary "#{appdir}/Saladict.app/Contents/MacOS/Saladict"
+  app "saladict.app"
+  binary "#{appdir}/saladict.app/Contents/MacOS/Saladict"
 
   zap trash: [
     "~/Library/Application Support/allen.town.focus.saladict",

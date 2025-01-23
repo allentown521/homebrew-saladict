@@ -2,8 +2,8 @@ cask "saladict" do
   arch arm: "aarch64", intel: "x64"
 
   version "3.0.8"
-  sha256 arm:   "a71bca72ad2c38c4756bf667e578462cccdf2a74a66a715a7bb83aa4d13cf3c8",
-         intel: "6a76d135a03576e019470e02656f0f8fa3d6a13706cc1d733736b7e66aa5eafe"
+  sha256 arm:   "f2123d1d00a118bafdac59ff34198af7c887a8b8f5850a7a158c80f915778c10",
+         intel: "a8987402fd28a037cf30171c7859f04d0fd3740ee958f90931e6a2a3f35f781e"
 
   url "https://github.com/allentown521/saladict/releases/download/#{version}/saladict_#{version}_#{arch}.dmg"
   name "saladict"
